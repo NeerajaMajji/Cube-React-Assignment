@@ -1,10 +1,19 @@
 import React, { useState, useEffect } from "react";
 import ShimmerLoader from "./shimmerLoader";
-
-const CustomerDetailsPage = ({ customerDetails }) => {
+type ImageData = {
+  author: string;
+  download_url: string;
+  height: number;
+  width: number;
+  id: string;
+  url: string;
+};
+type CustomerDetails = {
+  customerDetails: CustomerData;
+};
+const CustomerDetailsPage = ({ customerDetails }: CustomerDetails) => {
   const [imagesData, setImagesData] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log("imagesData", imagesData);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -53,7 +62,7 @@ const CustomerDetailsPage = ({ customerDetails }) => {
             gap: "10px",
           }}
         >
-          {imagesData.map((image) => (
+          {imagesData.map((image: ImageData) => (
             <div
               style={{
                 width: "100%",

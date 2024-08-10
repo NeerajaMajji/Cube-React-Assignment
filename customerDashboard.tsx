@@ -5,7 +5,7 @@ import RenderCustomerDetailsPage from "./renderCustomersDetailsPage";
 const CustomerDashboard = () => {
   const [selectedCustomer, setSelectedCustomer] = useState(null);
 
-  const handleCustomerSelect = (customer) => {
+  const handleCustomerSelect = (customer: CustomerData) => {
     setSelectedCustomer(customer);
   };
 

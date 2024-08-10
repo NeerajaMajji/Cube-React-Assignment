@@ -1,7 +1,10 @@
 import React from "react";
 import CustomerDetailsPage from "./customerDetailsPage";
+type CustomerDetails = {
+  customerDetails: CustomerData;
+};
 
-const RenderCustomerDetailsPage = ({ customerDetails }) => {
+const RenderCustomerDetailsPage = ({ customerDetails }: CustomerDetails) => {
   return (
     <div>
       {customerDetails ? (

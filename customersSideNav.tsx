@@ -17,7 +17,7 @@ const CustomerSideNav = ({ onSelectCustomer }) => {
 
   return (
     <div style={{ width: "100%" }}>
-      {customersData.map((customer) => (
+      {customersData.map((customer: CustomerData) => (
         <CustomerCard
           key={customer.customerId}
           data={customer}

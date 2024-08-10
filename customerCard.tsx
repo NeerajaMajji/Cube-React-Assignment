@@ -1,7 +1,12 @@
 import React from "react";
 import "./CustomerCard.css";
+type CustomerCard = {
+  data: CustomerData;
+  isSelected: boolean;
+  onClick: () => void;
+};
 
-const CustomerCard = ({ data, isSelected, onClick }) => {
+const CustomerCard = ({ data, isSelected, onClick }: CustomerCard) => {
   return (
     <div
       onClick={onClick}
