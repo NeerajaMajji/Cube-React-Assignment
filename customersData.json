@@ -1,0 +1,122 @@
+[
+  {
+    "customerId": 1,
+    "customerName": "John Doe",
+    "title": "Senior Software Engineer, Tech Lead, Department: IT, Location: Springfield, IL",
+    "address": "123 Maple St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 2,
+    "customerName": "Jane Smith",
+    "title": "Project Manager, Team Lead, Department: Operations, Location: Springfield, IL",
+    "address": "456 Oak St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 3,
+    "customerName": "Michael Johnson",
+    "title": "Chief Financial Officer, CFO, Department: Finance, Location: Springfield, IL",
+    "address": "789 Pine St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 4,
+    "customerName": "Emily Davis",
+    "title": "Marketing Director, Head of Sales, Department: Marketing, Location: Springfield, IL",
+    "address": "101 Birch St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 5,
+    "customerName": "James Wilson",
+    "title": "Human Resources Manager, Recruiter, Department: HR, Location: Springfield, IL",
+    "address": "102 Elm St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 6,
+    "customerName": "Patricia Brown",
+    "title": "Operations Manager, Logistics Coordinator, Department: Operations, Location: Springfield, IL",
+    "address": "103 Cedar St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 7,
+    "customerName": "Robert Miller",
+    "title": "Product Manager, Product Lead, Department: Product Development, Location: Springfield, IL",
+    "address": "104 Walnut St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 8,
+    "customerName": "Linda Martinez",
+    "title": "Software Developer, Full Stack Developer, Department: IT, Location: Springfield, IL",
+    "address": "105 Willow St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 9,
+    "customerName": "David Harris",
+    "title": "Sales Manager, Key Account Manager, Department: Sales, Location: Springfield, IL",
+    "address": "106 Cherry St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 10,
+    "customerName": "Barbara Clark",
+    "title": "Finance Analyst, Budget Specialist, Department: Finance, Location: Springfield, IL",
+    "address": "107 Ash St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 11,
+    "customerName": "Richard Lewis",
+    "title": "Customer Support Manager, Customer Relations, Department: Customer Service, Location: Springfield, IL",
+    "address": "108 Fir St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 12,
+    "customerName": "Susan Young",
+    "title": "Content Manager, Lead Editor, Department: Marketing, Location: Springfield, IL",
+    "address": "109 Pine St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 13,
+    "customerName": "Joseph Hall",
+    "title": "Data Scientist, Machine Learning Engineer, Department: Data Science, Location: Springfield, IL",
+    "address": "110 Poplar St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 14,
+    "customerName": "Karen Walker",
+    "title": "UX Designer, UI Designer, Department: Design, Location: Springfield, IL",
+    "address": "111 Maple St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 15,
+    "customerName": "Charles King",
+    "title": "Security Analyst, Information Security, Department: IT, Location: Springfield, IL",
+    "address": "112 Oak St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 16,
+    "customerName": "Betty Wright",
+    "title": "Quality Assurance Manager, QA Lead, Department: Quality Assurance, Location: Springfield, IL",
+    "address": "113 Pine St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 17,
+    "customerName": "Paul Green",
+    "title": "Network Administrator, Systems Engineer, Department: IT, Location: Springfield, IL",
+    "address": "114 Birch St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 18,
+    "customerName": "Lisa Adams",
+    "title": "Digital Marketing Specialist, SEO Expert, Department: Marketing, Location: Springfield, IL",
+    "address": "115 Elm St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 19,
+    "customerName": "James Scott",
+    "title": "Database Administrator, Data Engineer, Department: IT, Location: Springfield, IL",
+    "address": "116 Cedar St, Springfield, IL 62701"
+  },
+  {
+    "customerId": 20,
+    "customerName": "Sarah Nelson",
+    "title": "Business Analyst, Financial Analyst, Department: Finance, Location: Springfield, IL",
+    "address": "117 Walnut St, Springfield, IL 62701"
+  }
+]

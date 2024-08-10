@@ -1,0 +1,61 @@
+.customerName {
+  color: gray;
+}
+.cardRegularContainer {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.wholeContainer {
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
+}
+.sideNavContainer {
+  width: 30%;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+.rightContainer {
+  width: 70%;
+  height: 100vh;
+  flex: 1;
+  padding: 60px;
+}
+.detailsContainer {
+  display: flex;
+  background-color: rgba(198, 195, 195, 0.639);
+  justify-content: center;
+  align-items: center;
+}
+.customer-card {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.customer-card:hover {
+  background-color: #f0f0f0;
+}
+
+.customer-card.selected {
+  background-color: grey;
+  color: white;
+}
+
+.shimmerLoader {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.shimmerItem {
+  background: rgb(210, 208, 208);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
