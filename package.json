@@ -9,6 +9,9 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "process": "^0.11.10"
+    "cssnano": "^7.0.5",
+    "postcss": "^8.4.41",
+    "process": "^0.11.10",
+    "typescript": "^5.5.4"
   }
 }
