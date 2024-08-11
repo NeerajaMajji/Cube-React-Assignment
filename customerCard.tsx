@@ -1,5 +1,5 @@
 import React from "react";
-import "./CustomerCard.css";
+import "./customerCard.css";
 import { CustomerData } from "./customerData.type";
 type CustomerCard = {
   data: CustomerData;
