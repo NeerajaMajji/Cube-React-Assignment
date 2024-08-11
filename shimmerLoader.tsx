@@ -1,6 +1,6 @@
 import React from "react";
 import "./customerCard.css";
-
+// this is shimmer loader or sketlon
 const ShimmerLoader = () => {
   return (
     <div className="shimmerLoader">
